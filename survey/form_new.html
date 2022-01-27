@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <title>Title</title>
+</head>
+<body>
+
+<div class="bg">
+    <h1 id="title">Let's take a survey!</h1>
+    <div class="form-container">
+        <p class="form-header" id="description">Survey-form</p>
+        <form id="survey-form" action="" method="post">
+            <div class="form-table">
+
+                <div>
+                <div class="label">
+                    <label for="name" id="name-label">Name:</label>
+                </div>
+                <div class="input">
+                    <input id="name" type="text" name="username" placeholder = "enter your name">
+                </div>
+                </div>
+                <div>
+                <div class="label">
+                    <label for="email" id="email-label">Email:</label>
+                </div>
+                <div  class="input">
+                    <input id="email" type="text" name="email" placeholder = "enter your email">
+                </div>
+                </div>
+                <div>
+                <div class="label">
+                    <label for="number" id="number-label">Age:</label>
+                </div>
+                <div class="input">
+                    <input id="number" type="number" name="age" max="113" min="10" placeholder = "enter your age">
+                </div>
+                </div>
+
+                <div class="dropdown">
+                    <select class="drpdwn-button">
+                    <option value="first">First</option>
+                    <option value="second">Second</option>
+                    <option value="third">Third</option>
+                    </select>
+                </div>
+
+                <div class="radio">
+                    <div>
+                        <label>Your gender</label>
+                    </div>
+                    <div>
+                        <input name="gender" type="radio" class="male"> Male
+                        <input name="gender" type="radio" class="female"> Female
+                    </div>
+                </div>
+
+                <div class="checkbox">
+                    <div>
+                        <label>Occupation:</label>
+                    </div></br>
+                    <div>
+                        <input name="occ1" type="checkbox" value="student" id="occ1">
+                        <label for="occ1">Student</label>
+                        <input name="occ2" type="checkbox" value="employee" id="occ2">
+                        <label for="occ2">Employee</label>
+                        <input name="occ3" type="checkbox" value="employer" id="occ3">
+                        <label for="occ3">Employer</label>
+                    </div>
+                </div>
+
+                <div class="textarea">
+                    <textarea id="text" rows="5" cols="45" name="text" placeholder="Enter your comment"></textarea>
+                </div>
+
+                <div>
+                    <input id="submit" type="submit" value="SUBMIT">
+                </div>
+
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+</body>
+</html>
